@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://172.30.111.124:3306/sampledb
+    username: user3S0
+    password: k3wYksr3niSGfsDx
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8InnoDBDialect
+    hibernate:
+      ddl-auto: validate
