@@ -4,6 +4,6 @@ spring:
     username: user3S0
     password: k3wYksr3niSGfsDx
   jpa:
-    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate:
       ddl-auto: validate
