@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://172.30.111.124:3306/sampledb
-    username: user3S0
-    password: k3wYksr3niSGfsDx
+    url: jdbc:mysql://${DB_HOST}:${DB_PORT}/${DB_NAME}
+    username: ${DB_USER}
+    password: ${DB_PASS}
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate:
